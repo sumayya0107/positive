@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.box{
+    width: 400px;
+    height: 400px; 
+   background: blue;
+   transition: 5s;
+   margin: 50px auto;
+}
+.box:hover{
+    width: 100px;
+    height: 100px; 
+   background: greenyellow;
+   transition: 5s;
+   margin: 50px auto;
+}
+.two{
+    width: 300px;
+    height: 300px;
+    padding-top: 50%;
+    margin-top: auto;
+    background: red;
+    transition: 3s;
+    margin: 50% auto;
+}
